@@ -1,7 +1,7 @@
 class Reserve
 	attr_reader :fname
 	attr_writer :fname
-	def initialize(fname, lname, email)
+	def initialize(fname, lname, email,room)
 		@fname = fname
 		@lname = lname
 		@email = email
