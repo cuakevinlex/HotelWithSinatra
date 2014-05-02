@@ -21,6 +21,7 @@ post '/reserve' do
 	fname = params[:fname]
 	lname = params[:lname]
 	email = params[:email]
-	@reserve = Reserve.new fname, lname, email
+	room = params[:room]
+	@reserve = Reserve.new fname, lname, email, room
 	erb :reserve_results
 end
