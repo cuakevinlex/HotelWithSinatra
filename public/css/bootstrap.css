@@ -6279,6 +6279,11 @@ text-align: center;
 position: relative;
 
 font-family: verdana;
-
 }
+
+h2
+{
+color: silver;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
