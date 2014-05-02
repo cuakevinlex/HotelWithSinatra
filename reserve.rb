@@ -8,10 +8,10 @@ class Reserve
 		@room = room
 	end
 	def say_my_name
-		"My name is #{@fname} #{@lname}"
+		"Name: #{@fname} #{@lname}"
 	end
 	def say_my_email
-		"email: #{@email}<br />room: #{@room}"
+		"E-mail: #{@email}<br />Room: #{@room}"
 	end
 		
 end
